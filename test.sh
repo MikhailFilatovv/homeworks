@@ -1,7 +1,7 @@
 #! /bin/bash
 
-whoami
-groups
-
-ping -с 4 ya.ru 
-
+read -p "Enter path to file" name 
+if [ -f $name ]
+then
+       echo "$File exists" 
+fi
