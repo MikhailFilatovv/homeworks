@@ -7,3 +7,4 @@ else
 	#Update and Upgrade
 	echo "Updating and Upgrading"
 	apt-get update && sudo apt-get upgrade -y
+    sudo apt install net-tools -y
